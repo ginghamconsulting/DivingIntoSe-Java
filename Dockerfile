@@ -51,6 +51,6 @@ COPY . $USER_HOME_DIR/
 WORKDIR $USER_HOME_DIR/
 
 # Resolving Maven Dependencies
-RUN mvn install
+RUN mvn dependency:go-offline
 EXPOSE 8080
 CMD [""]
