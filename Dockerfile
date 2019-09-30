@@ -51,6 +51,6 @@ COPY . $USER_HOME_DIR/
 WORKDIR $USER_HOME_DIR/saucedemo-parallel
 
 # Resolving Maven Dependencies
-RUN mvn dependency:go-offline
+RUN mvn dependency
 EXPOSE 8080
 CMD [""]
