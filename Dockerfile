@@ -48,7 +48,7 @@ VOLUME $GRADLE_USER_HOME
 
 # Copying project files
 COPY . $USER_HOME_DIR/
-WORKDIR $USER_HOME_DIR/saucedemo-parallel
+WORKDIR $USER_HOME_DIR/DivingIntoSe-Java
 
 # Resolving Maven Dependencies
 RUN mvn install
