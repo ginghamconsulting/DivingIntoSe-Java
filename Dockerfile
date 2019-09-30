@@ -51,6 +51,6 @@ COPY . $USER_HOME_DIR/
 WORKDIR $USER_HOME_DIR/saucedemo-parallel
 
 # Resolving Maven Dependencies
-RUN mvn dependency
+RUN mvn install
 EXPOSE 8080
 CMD [""]
