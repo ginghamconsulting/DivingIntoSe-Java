@@ -1,6 +1,3 @@
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ginghamconsulting/DivingIntoSe-Java)
-
-
 # For attendees
 
 Run either the `windows_insall.bat` by double-clicking or the `mac_install.sh` by opening up the folder in a terminal window and typeing `./mac_install.sh`.
