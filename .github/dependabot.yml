@@ -1,0 +1,29 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.testng:testng
+    versions:
+    - 7.3.0
+- package-ecosystem: maven
+  directory: "/01-init"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.testng:testng
+    versions:
+    - 7.3.0
+- package-ecosystem: maven
+  directory: "/02-your-first-test"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.testng:testng
+    versions:
+    - 7.3.0
